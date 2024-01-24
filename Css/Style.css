@@ -167,35 +167,35 @@ p {
   height: 60px;
   border-radius: 50%;
 }
-/* Header */
-header {
-  opacity: 0.8;
-  font-size: 25px;
-  height: 80px;
+.header {
   width: 100vw;
-  background-color: rgba(107, 107, 107, 1);
+  overflow: hidden;
+  background-color: rgba(134, 134, 134, 1);
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
   color: black;
-  padding: 20px 0;
   text-align: center;
-  border-color: black;
-}
-
-nav ul {
-  align-items: flex-end;
-  padding: 30px;
-}
-
-nav li {
-  display: inline;
-  margin: 0 130px;
-
-}
-
-nav a {
-  color: black;
+  padding: 23px;
   text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
-
+.logo h1{
+  font-size: 26px;
+}
+.header-main{
+  display: flex;
+  justify-content: center;
+}
+.header a:hover {
+  background-color: #5f5d5d;
+  color: black;
+}
 
 h2 {
   font-size: 2em;
@@ -215,6 +215,7 @@ h2 {
 }
 .titlecontact{
   font-size: 20px;
+
   display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Levi Eeftink</title>
+  <title>Home Page</title>
   <link rel="stylesheet" href="Css/Style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,21 +13,20 @@
 </head>
 
 <body background="Img/background.png">
-    <!--HEader-->
-  <header> 
-    <nav>
-      <ul>
-        <li><a href="homepage.html">Home Page</a></li>
-        <li><a  href="contact.html">Contact</a></li>
-        <li><a href="Mijn Ervaring.html">Mijn Ervaring</a></li>
-        <li><a href="Over Mij.html">Over mij</a></li>
-      </ul>
-    </nav>
+  <header>
+    <div class="header">
+      <div class="header-main">
+        <a class="active" href="homepage.html">Homepage</a>
+        <a href="contact.html">Contact</a>
+        <a href="Mijn Ervaring.html">Mijn Ervaring</a>
+        <a href="Over Mij.html">Over mij</a>
+      </div>
+    </div>
   </header>
   <!--Begin van de body-->
   <main>
     <section>
-        <!--Contact-->
+      <!--Contact-->
 
       <div class="titlecontact">
         <h1>Contact Form</h1>
@@ -38,19 +37,19 @@
       <form action="#" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
-    
+
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-    
+
         <label for="message">Message:</label>
         <textarea id="message" name="message" required></textarea>
-    
+
         <button type="submit">Submit</button>
       </form>
     </section>
   </main>
   <footer>
-            <!--Footer-->
+    <!--Footer-->
     <div class="footer">
       <div class="social-icons">
         <a href="#" target="_blank">
@@ -68,4 +67,5 @@
     </div>
   </footer>
 </body>
+
 </html>
