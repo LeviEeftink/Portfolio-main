@@ -13,6 +13,7 @@
 </head>
 
 <body background="Img/background.png">
+    <!--HEader-->
   <header> 
     <nav>
       <ul>
@@ -23,31 +24,33 @@
       </ul>
     </nav>
   </header>
+  <!--Begin van de body-->
   <main>
     <section>
-      <div class="contactcontainer">
-        <form id="contact" action="" method="post">
-          <h3>Contact Form</h3>
-          <fieldset>
-            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Email Address" type="email" tabindex="2" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
-        </form>
-        </div>
+        <!--Contact-->
+
+      <div class="titlecontact">
+        <h1>Contact Form</h1>
+
+      </div>
+    </section>
+    <section>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    
+        <button type="submit">Submit</button>
+      </form>
     </section>
   </main>
   <footer>
+            <!--Footer-->
     <div class="footer">
       <div class="social-icons">
         <a href="#" target="_blank">
